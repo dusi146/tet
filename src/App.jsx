@@ -15,7 +15,7 @@ const App = () => {
   const [soundEnabled, setSoundEnabled] = useState(true);
   
   // Content State - Lazy Init from LocalStorage (Fix reset issue)
-  const [userName, setUserName] = useState(() => localStorage.getItem('tet2026_userName') || "Phạm Duy Thái");
+  const [userName, setUserName] = useState(() => localStorage.getItem('tet2026_userName') || "Huỳnh Thị Thu Mơ");
   const [wishContent, setWishContent] = useState(() => localStorage.getItem('tet2026_wishContent') || "Cung Chúc Tân Xuân\nVạn Sự Như Ý\nTấn Tài Tấn Lộc\nAn Khang Thịnh Vượng");
   const [wishFont, setWishFont] = useState(() => localStorage.getItem('tet2026_wishFont') || 'font-calligraphy'); 
   const [wishColor, setWishColor] = useState(() => localStorage.getItem('tet2026_wishColor') || 'text-yellow-200');
